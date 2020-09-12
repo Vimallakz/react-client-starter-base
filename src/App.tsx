@@ -1,5 +1,6 @@
 import React, { Suspense } from 'react';
 import './App.scss';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Routes = React.lazy(() => import('./router'));
 
